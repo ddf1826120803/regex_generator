@@ -1,0 +1,165 @@
+{"index": 85, "description": "lines using a word of 5 letters or less.\n", "truth regex": ".*\\b[A-Za-z]{1,5}\\b.*\n", "gpt3 inference regex": ".*\\b[A-Za-z]{1,5}\\b.*"}
+{"index": 27, "description": "lines that contain the numbers '9', and '10'\n", "truth regex": ".*(9.*10|10.*9).*\n", "gpt3 inference regex": ".*(9|10).*"}
+{"index": 8, "description": "lines that include three capital letters\n", "truth regex": "(.*[A-Z].*){3}\n", "gpt3 inference regex": "(.*[A-Z].*){3,}"}
+{"index": 316, "description": "lines that contain the word 'the'\n", "truth regex": ".*\\bthe\\b.*\n", "gpt3 inference regex": ".*\\bthe\\b.*"}
+{"index": 820, "description": "lines using 'x' before 'z'\n", "truth regex": ".*x.*z.*\n", "gpt3 inference regex": ".*x.*z.*"}
+{"index": 757, "description": "lines ending with the letter 'f'\n", "truth regex": ".*f\n", "gpt3 inference regex": ".*f$"}
+{"index": 701, "description": "lines that contain words starting with 'da'.\n", "truth regex": ".*\\bda[A-Za-z]*\\b.*\n", "gpt3 inference regex": ".*\\bda[A-Za-z]*\\b.*"}
+{"index": 285, "description": "lines ending with 'vem'\n", "truth regex": ".*vem\n", "gpt3 inference regex": ".*vem"}
+{"index": 358, "description": "lines starting with 'X' followed by a word with 'oa'.\n", "truth regex": "X.*((\\b[A-Za-z]+\\b)&(.*oa.*)).*\n", "gpt3 inference regex": "^X.*\\boa[A-Za-z]*\\b.*"}
+{"index": 624, "description": "lines that contain words ending in 'az'\n", "truth regex": ".*\\b[A-Za-z]*az\\b.*\n", "gpt3 inference regex": ".*\\b[A-Za-z]*az\\b.*"}
+{"index": 409, "description": "lines containing 'pol' or 'mi' before 'ist' or 'lk' \n", "truth regex": ".*(pol|mi).*(ist|lk).*\n", "gpt3 inference regex": ".*\\b(pol|mi)(ist|lk)\\b.*"}
+{"index": 270, "description": "lines that do not have the letter 'a'\n", "truth regex": "~(.*a.*)\n", "gpt3 inference regex": "^(?!.*a).*"}
+{"index": 738, "description": "lines that end with '...'\n", "truth regex": ".*\\.\\.\\.\n", "gpt3 inference regex": ".*\\.\\.\\."}
+{"index": 482, "description": "lines using words starting with 'fi'.\n", "truth regex": ".*\\bfi[A-Za-z]*\\b.*\n", "gpt3 inference regex": ".*\\bfi[A-Za-z]*\\b.*"}
+{"index": 14, "description": "lines starting with 'uu' followed by words starting with 'z'.\n", "truth regex": "uu.*\\bz[A-Za-z]*\\b.*\n", "gpt3 inference regex": "uu.*\\bz[A-Za-z]*\\b.*"}
+{"index": 267, "description": "lines that end with the number '100'.\n", "truth regex": ".*100\n", "gpt3 inference regex": ".*100$"}
+{"index": 113, "description": "lines which have three words.\n", "truth regex": "(.*\\b[A-Za-z]+\\b.*){3,}\n", "gpt3 inference regex": "(.*\\b[A-Za-z]+\\b.*){3}"}
+{"index": 363, "description": "lines that contin words ending in 'e'.\n", "truth regex": ".*\\b[A-Za-z]*e\\b.*\n", "gpt3 inference regex": ".*\\b[A-Za-z]*e\\b.*"}
+{"index": 792, "description": "lines that do not contain the letter 'c'.\n", "truth regex": "~(.*c.*)\n", "gpt3 inference regex": "~(.*c.*)"}
+{"index": 572, "description": "lines that match to the text 'I went into'.\n", "truth regex": ".*I went into.*\n", "gpt3 inference regex": "I went into"}
+{"index": 493, "description": "lines containing only four words.\n", "truth regex": "(([^A-Za-z])*\\b[A-Za-z]+\\b([^A-Za-z])*){4}\n", "gpt3 inference regex": "^(\\b[A-Za-z]+\\b\\s*){4}$"}
+{"index": 619, "description": "lines which have words beginning with 'H'.\n", "truth regex": ".*\\bH[A-Za-z]*\\b.*\n", "gpt3 inference regex": ".*\\bH[A-Za-z]*\\b.*"}
+{"index": 628, "description": "lines which do not have numbers.\n", "truth regex": "~(.*[0-9].*)\n", "gpt3 inference regex": "~(.*[0-9].*)"}
+{"index": 666, "description": "lines containing 'oo' and 'at'.\n", "truth regex": "(.*oo.*)&(.*at.*)\n", "gpt3 inference regex": ".*\\b[A-Za-z]*oo[A-Za-z]*\\b.*at.*"}
+{"index": 156, "description": "lines that are 20 characters or less\n", "truth regex": ".{0,20}\n", "gpt3 inference regex": ".^{1,20}$"}
+{"index": 476, "description": "lines that end with vowels.\n", "truth regex": ".*[AEIOUaeiou]\n", "gpt3 inference regex": ".*[AEIOUaeiou]$"}
+{"index": 499, "description": "lines that use numbers.\n", "truth regex": ".*[0-9].*\n", "gpt3 inference regex": ".*[0-9].*"}
+{"index": 584, "description": "lines which start with 'alpha'\n", "truth regex": "alpha.*\n", "gpt3 inference regex": "alpha.*"}
+{"index": 495, "description": "lines that end with 'hey' \n", "truth regex": ".*hey\n", "gpt3 inference regex": ".*hey$"}
+{"index": 706, "description": "lines using words that end with a vowel.\n", "truth regex": ".*\\b[A-Za-z]*[aeiouAEIOU]\\b.*\n", "gpt3 inference regex": ".*\\b[A-Za-z]*[AEIOUaeiou]\\b.*"}
+{"index": 204, "description": "lines using the word 'George' and the number '62'.\n", "truth regex": ".*(.*\\bGeorge\\b.*)&(.*62.*).*\n", "gpt3 inference regex": "(.*\\bGeorge\\b.*)&(.*62.*)"}
+{"index": 55, "description": "lines which contain only the number '3'.\n", "truth regex": "3\n", "gpt3 inference regex": "^3$"}
+{"index": 453, "description": "lines that contain a word in all uppercase.\n", "truth regex": ".*\\b[A-Z]+\\b.*\n", "gpt3 inference regex": "\\b[A-Z]+\\b"}
+{"index": 765, "description": "lines ending with 'wrench' that use the word 'monkey'.\n", "truth regex": ".*\\bmonkey\\b.*wrench\n", "gpt3 inference regex": ".*\\bmonkey\\b.*wrench$"}
+{"index": 812, "description": "lines that contain a nine letter word.\n", "truth regex": ".*\\b[A-Za-z]{9}\\b.*\n", "gpt3 inference regex": ".*\\b[A-Za-z]{9}\\b.*"}
+{"index": 641, "description": "lines that contain at least 2 vowels in a word.\n", "truth regex": ".*((\\b[A-Za-z]+\\b)&(.*[AEIOUaeiou].*){2}).*\n", "gpt3 inference regex": ".*\\b[A-Za-z]*[AEIOUaeiou][A-Za-z]*[AEIOUaeiou][A-Za-z]*\\b.*"}
+{"index": 193, "description": "lines containing three vowels\n", "truth regex": "(.*[AEIOUaeiou].*){3}\n", "gpt3 inference regex": "(.*[AEIOUaeiou].*){3}"}
+{"index": 761, "description": "lines ending with 'uns'\n", "truth regex": ".*uns\n", "gpt3 inference regex": ".*uns$"}
+{"index": 484, "description": "lines containing words which begin with 'c' and end with 'd'\n", "truth regex": ".*\\bc[A-Za-z]*d\\b.*\n", "gpt3 inference regex": ".*\\bc[A-Za-z]*d\\b.*"}
+{"index": 592, "description": "lines which contain both 'i' and 'e' but no instances of 'u'.\n", "truth regex": "(.*i.*)&(.*e.*)&(~(.*u.*))\n", "gpt3 inference regex": ".*((i.*e.*)|(e.*i.*))&~(.*u.*)"}
+{"index": 568, "description": "lines which mention 'Pat' with the word 'turkey'.\n", "truth regex": ".*(.*Pat.*)&(.*\\bturkey\\b.*).*\n", "gpt3 inference regex": ".*\\bPat\\b.*\\bTurkey\\b.*"}
+{"index": 814, "description": "lines utilizing words ending with 'fe'.\n", "truth regex": ".*((\\b[A-Za-z]+\\b)&(.*fe)).*\n", "gpt3 inference regex": ".*((\\b.*fe\\b)&([A-Za-z]+)).*"}
+{"index": 596, "description": "lines containing 'l' before 'y'\n", "truth regex": ".*l.*y.*\n", "gpt3 inference regex": ".*l.*y.*"}
+{"index": 77, "description": "lines containing any mention of the word 'code'.\n", "truth regex": ".*\\bcode\\b.*\n", "gpt3 inference regex": ".*\\bcode\\b.*"}
+{"index": 103, "description": "lines that carry the word 'Jim' located in between 'Stacks' and 'Slim'.\n", "truth regex": ".*Stacks.*\\bJim\\b.*Slim.*|.*Slim.*\\bJim\\b.*Stacks.*\n", "gpt3 inference regex": ".*Stacks.*\\bJim\\b.*Slim.*"}
+{"index": 317, "description": "lines that contain the number '10'.\n", "truth regex": ".*10.*\n", "gpt3 inference regex": ".*10.*"}
+{"index": 648, "description": "lines using 'art' or 'led'\n", "truth regex": ".*(art|led).*\n", "gpt3 inference regex": ".*\\b(art|led)\\b.*"}
+{"index": 580, "description": "lines that contain a 3 letter word and a 2 letter word.\n", "truth regex": ".*(.*\\b[A-Za-z]{3}\\b.*)&(.*\\b[A-Za-z]{2}\\b.*).*\n", "gpt3 inference regex": "(.*\\b[A-Za-z]{3}\\b.*)&(.*\\b[A-Za-z]{2}\\b.*)"}
+{"index": 784, "description": "lines using 6 'e'\n", "truth regex": "(.*e.*){6}\n", "gpt3 inference regex": "(.*e.*){6}"}
+{"index": 818, "description": "lines using 'gophers' and containing the words 'grass' and 'seeds'.\n", "truth regex": "(.*gophers.*)&(.*\\bgrass\\b.*)&(.*\\bseeds\\b.*)\n", "gpt3 inference regex": ".*\\bgophers\\b.*\\bgrass\\b.*\\bseeds\\b.*"}
+{"index": 79, "description": "lines that have a word beginning with th and a number that begins in '7'\n", "truth regex": "(.*\\bth[A-Za-z]*\\b.*)&(.*7[0-9]*.*)\n", "gpt3 inference regex": ".*\\bth[A-Za-z]*\\b.*7[0-9]*.*"}
+{"index": 441, "description": "lines that have 'ser' after 'lin' or 'ku'.\n", "truth regex": ".*(lin|ku).*ser.*\n", "gpt3 inference regex": ".*(lin|ku).*ser.*"}
+{"index": 241, "description": "lines that contain the text 'this is it'.\n", "truth regex": ".*this is it.*\n", "gpt3 inference regex": ".*this is it.*"}
+{"index": 457, "description": "6 letter lines\n", "truth regex": "[A-Za-z]{6}\n", "gpt3 inference regex": "^[A-Za-z]{6}$"}
+{"index": 545, "description": "lines that contain 'fast' and contain '2'\n", "truth regex": "(.*fast.*)&(.*2.*)\n", "gpt3 inference regex": "(.*\\bfast\\b.*)(.*2.*)"}
+{"index": 239, "description": "lines that show 'May' and 'June'.\n", "truth regex": ".*(.*May.*)&(.*June.*).*\n", "gpt3 inference regex": "(.*May.*)&(.*June.*)"}
+{"index": 215, "description": "lines that have 3 numbers and contain the word 'Columbia'.\n", "truth regex": "(.*[0-9].*){3}&(.*\\bColumbia\\b.*)\n", "gpt3 inference regex": "(.*\\bColumbia\\b.*)&(.*[0-9].*){3}.*"}
+{"index": 31, "description": "lines using 'q' before 'r'\n", "truth regex": ".*q.*r.*\n", "gpt3 inference regex": ".*q.*r.*"}
+{"index": 162, "description": "lines that have 'eye'\n", "truth regex": ".*eye.*\n", "gpt3 inference regex": ".*eye.*"}
+{"index": 651, "description": "lines using 3 instances of 'b'\n", "truth regex": ".*(.*b.*){3}.*\n", "gpt3 inference regex": "(.*b.*){3}"}
+{"index": 301, "description": "lines using 'ss' between 'a' and 'le'\n", "truth regex": ".*a.*ss.*le.*\n", "gpt3 inference regex": ".*a.*ss.*le.*"}
+{"index": 727, "description": "lines with words matching the word 'fur'.\n", "truth regex": ".*\\bfur\\b.*\n", "gpt3 inference regex": ".*\\bfur\\b.*"}
+{"index": 642, "description": "lines that have two words containing 5 or more letters.\n", "truth regex": "(.*\\b[A-Za-z]{5,}\\b.*){2}\n", "gpt3 inference regex": "(.*\\b[A-Za-z]{5,}\\b.*){2}"}
+{"index": 728, "description": "lines that start with 'an'\n", "truth regex": "an.*\n", "gpt3 inference regex": "an.*"}
+{"index": 318, "description": "lines that contain 6 letter words beginning with the letter 'y'.\n", "truth regex": ".*\\by[A-Za-z]{5}\\b.*\n", "gpt3 inference regex": ".*\\b[yY][A-Za-z]{5}\\b.*"}
+{"index": 40, "description": "lines that have 'sandwich' but not the word 'ham'\n", "truth regex": "(.*sandwich.*)&(~(.*\\bham\\b.*))\n", "gpt3 inference regex": "^(?=.*\\bsandwich\\b)(?!.*\\bham\\b).*"}
+{"index": 350, "description": "lines that have ten words.\n", "truth regex": "(.*\\b[A-Za-z]+\\b.*){10}\n", "gpt3 inference regex": "(.*\\b[A-Za-z]+\\b.*){10}"}
+{"index": 696, "description": "lines of 6 characters that end with the letter 's'.\n", "truth regex": ".{5}s\n", "gpt3 inference regex": ".^.{5}s$"}
+{"index": 526, "description": "lines having words ending with 'lo'.\n", "truth regex": ".*\\b[A-Za-z]*lo\\b.*\n", "gpt3 inference regex": ".*\\b[A-Za-z]*lo\\b.*"}
+{"index": 141, "description": "lines with capital letters\n", "truth regex": ".*[A-Z].*\n", "gpt3 inference regex": ".*[A-Z].*"}
+{"index": 251, "description": "lines containing the word 'run' or the word 'hat'\n", "truth regex": ".*\\b(run|hat)\\b.*\n", "gpt3 inference regex": ".*\\b(run|hat)\\b.*"}
+{"index": 395, "description": "lines that contain the word 'Boby'.\n", "truth regex": ".*\\bBoby\\b.*\n", "gpt3 inference regex": ".*\\bBoby\\b.*"}
+{"index": 379, "description": "lines that contain three 'she'.\n", "truth regex": "(.*she.*){3}\n", "gpt3 inference regex": "(.*\\bshe\\b.*){3}"}
+{"index": 652, "description": "lines that include words with 'ra'.\n", "truth regex": ".*((\\b[A-Za-z]+\\b)&(.*ra.*)).*\n", "gpt3 inference regex": ".*\\b[A-Za-z]*ra[A-Za-z]*\\b.*"}
+{"index": 278, "description": "lines which have a th after a 'ch'.\n", "truth regex": ".*ch.*th.*\n", "gpt3 inference regex": ".*ch.*th.*"}
+{"index": 489, "description": "lines that contain the 'staphyloccus aureus.'\n", "truth regex": ".*staphyloccus aureus.*\n", "gpt3 inference regex": ".*\\bstaphyloccus aureus\\b.*"}
+{"index": 346, "description": "lines that have five words that all end with the letter 'G'.\n", "truth regex": "(.*((\\b.*G\\b)&([A-Za-z]+)).*){5}\n", "gpt3 inference regex": "(^|.*\\b)[A-Za-z]*G(\\b.*|$){5}"}
+{"index": 222, "description": "lines that contain 2 numbers that contain '19'.\n", "truth regex": "(.*19.*){2}\n", "gpt3 inference regex": "(.*19.*[0-9].*){2}"}
+{"index": 534, "description": "lines that contain numbers.\n", "truth regex": ".*[0-9].*\n", "gpt3 inference regex": ".*[0-9].*"}
+{"index": 422, "description": "lines using words ending with 'on'.\n", "truth regex": ".*\\b[A-Za-z]*on\\b.*\n", "gpt3 inference regex": ".*\\b[A-Za-z]*on\\b.*"}
+{"index": 809, "description": "lines that contain the phrase 'Wednesday' but not 'Sunday'.\n", "truth regex": "(.*Wednesday.*)&(~(.*Sunday.*))\n", "gpt3 inference regex": "^(?=.*Wednesday)(?!.*Sunday).*"}
+{"index": 172, "description": "lines which contain five or more 'y'\n", "truth regex": "(.*y.*){5,}\n", "gpt3 inference regex": "(.*y.*){5,}"}
+{"index": 670, "description": "lines using a 3 letter sequence starting with 'n'\n", "truth regex": ".*n[A-Za-z]{2}.*\n", "gpt3 inference regex": ".*(n[A-Za-z]{2}).*"}
+{"index": 101, "description": "lines that mention both 'butterflies' and 'fireflies'.\n", "truth regex": "(.*butterflies.*)&(.*fireflies.*)\n", "gpt3 inference regex": "(.*butterflies.*)&(.*fireflies.*)"}
+{"index": 75, "description": "lines using 'oon' \n", "truth regex": ".*oon.*\n", "gpt3 inference regex": ".*oon.*"}
+{"index": 516, "description": "lines starting with 'cl'\n", "truth regex": "cl.*\n", "gpt3 inference regex": "cl.*"}
+{"index": 150, "description": "lines that contain words with 'oo'.\n", "truth regex": ".*((\\b[A-Za-z]+\\b)&(.*oo.*)).*\n", "gpt3 inference regex": ".*\\b[A-Za-z]*oo[A-Za-z]*\\b.*"}
+{"index": 247, "description": "lines using at least 6 characters\n", "truth regex": ".*.{6}.*\n", "gpt3 inference regex": ".{6,}"}
+{"index": 744, "description": "lines using words which have a vowel.\n", "truth regex": ".*\\b[A-Za-z]*[aeiouAEIOU][A-Za-z]*\\b.*\n", "gpt3 inference regex": ".*\\b[A-Za-z]*[aeiouAEIOU][A-Za-z]*\\b.*"}
+{"index": 1, "description": "lines that contain only the letters 'agde'.\n", "truth regex": "agde\n", "gpt3 inference regex": "[agde]*"}
+{"index": 345, "description": "lines that use words that are only four letters long.\n", "truth regex": ".*\\b[A-Za-z]{4}\\b.*\n", "gpt3 inference regex": "^(\\b[A-Za-z]{4}\\b\\s*)+$"}
+{"index": 5, "description": "lines with words that contain 3 vowels.\n", "truth regex": ".*((\\b[A-Za-z]+\\b)&(.*[AEIOUaeiou].*){3}).*\n", "gpt3 inference regex": ".*(\\b[A-Za-z]*([AEIOUaeiou][A-Za-z]*){3}\\b).*"}
+{"index": 817, "description": "lines that do not contain numerical characters.\n", "truth regex": "~(.*[0-9].*)\n", "gpt3 inference regex": "^[^\\d]*$"}
+{"index": 711, "description": "lines which have 'ing' and 'out' but not 'sh' or 'cl'.\n", "truth regex": "((.*ing.*)&(.*out.*)&(~(.*(sh|cl).*)))\n", "gpt3 inference regex": "^(?=.*\\bing\\b)(?=.*\\bout\\b)(?!.*\\bsh\\b)(?!.*\\bcl\\b).*"}
+{"index": 375, "description": "lines that contain the word 'unifax' but not the word 'colorado'.\n", "truth regex": "(.*\\bunifax\\b.*)&(~(.*\\bcolorado\\b.*))\n", "gpt3 inference regex": "^(?=.*\\bunifax\\b)(?!.*\\bcolorado\\b).*"}
+{"index": 310, "description": "lines that utilize words starting with 'pu'.\n", "truth regex": ".*((\\b[A-Za-z]+\\b)&(pu.*)).*\n", "gpt3 inference regex": ".*\\bpu[A-Za-z]*\\b.*"}
+{"index": 622, "description": "lines that contain words that end in 'y' that do not begin with 'w'\n", "truth regex": ".*((\\b[A-Za-z]+\\b)&(.*y)&(~(w.*))).*\n", "gpt3 inference regex": ".*\\b[^wW][A-Za-z]*y\\b.*"}
+{"index": 283, "description": "lines that contain words starting with 'an'.\n", "truth regex": ".*\\ban[A-Za-z]*\\b.*\n", "gpt3 inference regex": ".*\\ban[A-Za-z]*\\b.*"}
+{"index": 741, "description": "lines that contain the phrase 'bedrock' or 'yabadabadoo'.\n", "truth regex": ".*(bedrock|yabadabadoo).*\n", "gpt3 inference regex": ".*\\b(bedrock|yabadabadoo)\\b.*"}
+{"index": 669, "description": "lines that contain 'dre' or 'ber'\n", "truth regex": ".*(dre|ber).*\n", "gpt3 inference regex": ".*\\b(dre|ber)\\b.*"}
+{"index": 774, "description": "lines using the word 'day' followed by the letters 'abc'\n", "truth regex": ".*\\bday\\b.*abc.*\n", "gpt3 inference regex": ".*\\bdayabc\\b.*"}
+{"index": 793, "description": "lines starting with 'the'\n", "truth regex": "the.*\n", "gpt3 inference regex": "^the.*"}
+{"index": 474, "description": "lines that mention 'Randy' and also contain 'fox'\n", "truth regex": "(.*Randy.*)&(.*fox.*)\n", "gpt3 inference regex": "(.*\\bRandy\\b.*)(.*\\bfox\\b.*)"}
+{"index": 671, "description": "lines that start with the letter 'c'\n", "truth regex": "c.*\n", "gpt3 inference regex": "^c.*"}
+{"index": 680, "description": "lines that have the word 'laugh', and at least 1 number.\n", "truth regex": "(.*\\blaugh\\b.*)&(.*[0-9].*)\n", "gpt3 inference regex": ".*\\blaugh\\b.*\\d+.*"}
+{"index": 356, "description": "lines that begin with 'The' or 'For'.\n", "truth regex": "(The|For).*\n", "gpt3 inference regex": "^(The|For).*"}
+{"index": 527, "description": "lines that feature 'c' or 'd' before words that start with capital letters.\n", "truth regex": ".*(c|d).*\\b[A-Z][A-Za-z]*\\b.*\n", "gpt3 inference regex": ".*[cd]\\s+[A-Z]\\w*.*"}
+{"index": 406, "description": "lines that contain an 'x'\n", "truth regex": ".*x.*\n", "gpt3 inference regex": ".*x.*"}
+{"index": 306, "description": "lines which contain 'ead' or 'pro'\n", "truth regex": ".*(ead|pro).*\n", "gpt3 inference regex": ".*((ead)|(pro)).*"}
+{"index": 145, "description": "lines that contain words starting with 'po'.\n", "truth regex": ".*((\\b[A-Za-z][A-Za-z]*\\b)&(po.*)).*\n", "gpt3 inference regex": ".*\\bpo[A-Za-z]*\\b.*"}
+{"index": 253, "description": "lines with no vowels\n", "truth regex": "~(.*[AEIOUaeiou].*)\n", "gpt3 inference regex": "[^AEIOUaeiou]*"}
+{"index": 683, "description": "lines that start with 'news' \n", "truth regex": "news.*\n", "gpt3 inference regex": "^news.*"}
+{"index": 447, "description": "lines that include one word using at least 2 letters\n", "truth regex": ".*\\b[A-Za-z]{2,}\\b.*\n", "gpt3 inference regex": ".*\\b[A-Za-z]{2,}\\b.*"}
+{"index": 230, "description": "lines containing 'on' and also containing 'off'\n", "truth regex": "(.*on.*)&(.*off.*)\n", "gpt3 inference regex": ".*on.*off.*|.*off.*on.*"}
+{"index": 443, "description": "lines ending in 'az'\n", "truth regex": ".*az\n", "gpt3 inference regex": ".*az"}
+{"index": 800, "description": "lines that start with the letter 'a' and end with the letter 'c'\n", "truth regex": "a.*c\n", "gpt3 inference regex": "^a.*c$"}
+{"index": 821, "description": "lines beginning with the letter 'f'\n", "truth regex": "f.*\n", "gpt3 inference regex": "^f.*"}
+{"index": 142, "description": "lines containing 'e', or 'f'\n", "truth regex": ".*(e|f).*\n", "gpt3 inference regex": ".*(e|f).*"}
+{"index": 249, "description": "lines using the vowel combination 'ei'.\n", "truth regex": ".*ei.*\n", "gpt3 inference regex": ".*ei.*"}
+{"index": 620, "description": "lines where there is at least one word in which 'e' follows 'i'\n", "truth regex": ".*((\\b[A-Za-z][A-Za-z]*\\b)&(.*i.*e.*)).*\n", "gpt3 inference regex": ".*\\b[A-Za-z]*ie[A-Za-z]*\\b.*"}
+{"index": 479, "description": "lines containing one instance of 'ca' followed by an 'r' or a 't'\n", "truth regex": ".*(.*ca.*(r|t).*).*\n", "gpt3 inference regex": ".*ca(r|t).*"}
+{"index": 39, "description": "lines using the word 'going' followed by 'd'.\n", "truth regex": ".*\\bgoing\\b.*d.*\n", "gpt3 inference regex": ".*\\bgoing\\b.*d.*"}
+{"index": 389, "description": "lines that contain the phrase 'Booyah'.\n", "truth regex": ".*Booyah.*\n", "gpt3 inference regex": ".*\\bBooyah\\b.*"}
+{"index": 252, "description": "lines containing at least 2 characters but not 4 characters or more\n", "truth regex": ".{2,3}\n", "gpt3 inference regex": "^(?=.{2,}$)(?!.*.{4,}).*$"}
+{"index": 18, "description": "lines that contain the number '254' at least twice.\n", "truth regex": "(.*254.*){2}\n", "gpt3 inference regex": "(.*254.*){2,}"}
+{"index": 597, "description": "lines that begin with 'a' and end with 'z'\n", "truth regex": "a.*z\n", "gpt3 inference regex": "a.*z"}
+{"index": 454, "description": "lines which start with the word 'The'\n", "truth regex": "\\bThe\\b.*\n", "gpt3 inference regex": "^The\\b.*"}
+{"index": 210, "description": "lines that contain at least one word starting with 'q'.\n", "truth regex": ".*\\bq[A-Za-z]*\\b.*\n", "gpt3 inference regex": ".*\\bq[A-Za-z]*\\b.*"}
+{"index": 196, "description": "lines with the word 'Goal' in them.\n", "truth regex": ".*((\\b[A-Za-z]+\\b)&(Goal)).*\n", "gpt3 inference regex": ".*\\bGoal\\b.*"}
+{"index": 811, "description": "lines ending with 'xyz'\n", "truth regex": ".*xyz\n", "gpt3 inference regex": ".*xyz$"}
+{"index": 50, "description": "lines that contain the phrase 'city of'.\n", "truth regex": ".*(.*\\bcity of\\b.*).*\n", "gpt3 inference regex": ".*city of.*"}
+{"index": 790, "description": "lines that start with the word 'The'\n", "truth regex": "The\\b.*\n", "gpt3 inference regex": "\\bThe\\b.*"}
+{"index": 662, "description": "lines using the word 'hurry' followed by the word 'up'.\n", "truth regex": "(.*\\bhurry\\b.*)(.*\\bup\\b.*)\n", "gpt3 inference regex": ".*\\bhurry\\b.*\\bup\\b.*"}
+{"index": 122, "description": "lines that do not contain the letter 'a'\n", "truth regex": "~(.*a.*)\n", "gpt3 inference regex": "~(.*a.*)"}
+{"index": 436, "description": "lines that have a word containing 'a' or 'b'\n", "truth regex": ".*\\b([A-Za-z]+&.*(a|b).*)\\b.*\n", "gpt3 inference regex": ".*\\b[A-Za-z]*(a|b)[A-Za-z]*\\b.*"}
+{"index": 378, "description": "lines that contain digits.\n", "truth regex": ".*[0-9].*\n", "gpt3 inference regex": ".*[0-9].*"}
+{"index": 10, "description": "lines that have at least 5 numbers.\n", "truth regex": "(.*[0-9].*){5,}\n", "gpt3 inference regex": "(.*[0-9].*){5,}"}
+{"index": 432, "description": "lines that have the word 'Facebook'\n", "truth regex": ".*\\bFacebook\\b.*\n", "gpt3 inference regex": ".*\\bFacebook\\b.*"}
+{"index": 68, "description": "lines that contain at least two words starting with 'h' in them.\n", "truth regex": "(.*\\bh[A-Za-z]*\\b.*){2}\n", "gpt3 inference regex": ".*(\\b[hH][a-zA-Z]*\\b.*?){2,}.*"}
+{"index": 535, "description": "lines containing 4 words.\n", "truth regex": "(.*\\b[A-Za-z]+\\b.*){4,}\n", "gpt3 inference regex": "(^|\\s)\\b\\w+\\b(\\s|$){4}"}
+{"index": 261, "description": "lines that end in a digit\n", "truth regex": ".*[0-9]\n", "gpt3 inference regex": ".*[0-9]$"}
+{"index": 653, "description": "lines having words ending with 'oo'.\n", "truth regex": ".*((\\b[A-Za-z]+\\b)&(.*oo)).*\n", "gpt3 inference regex": ".*\\b[A-Za-z]*oo\\b.*"}
+{"index": 235, "description": "lines which contain 3 or more vowels.\n", "truth regex": "(.*[AEIOUaeiou].*){3,}\n", "gpt3 inference regex": "(.*[AEIOUaeiou].*){3,}"}
+{"index": 721, "description": "lines using at least two numbers, 'aby', and 'oz'.\n", "truth regex": "(.*[0-9].*){2}&(.*aby.*)&(.*oz.*)\n", "gpt3 inference regex": "(.*[0-9].*){2}.*aby.*oz.*"}
+{"index": 362, "description": "lines where 'TRY' is separated from 'LOL' with a comma\n", "truth regex": ".*TRY.*\\,.*LOL.*|.*LOL.*\\,.*TRY.*\n", "gpt3 inference regex": ".*TRY,.*LOL.*"}
+{"index": 255, "description": "lines containing the word 'shoe' and containing the word 'lace' \n", "truth regex": "(.*\\bshoe\\b.*)&(.*\\blace\\b.*)\n", "gpt3 inference regex": ".*\\b(shoe|lace)\\b.*"}
+{"index": 2, "description": "lines using words  ending in 'er'.\n", "truth regex": ".*\\b[A-Za-z]*er\\b.*\n", "gpt3 inference regex": ".*\\b[A-Za-z]*er\\b.*"}
+{"index": 816, "description": "lines which start with 'oocl' \n", "truth regex": "oocl.*\n", "gpt3 inference regex": "^oocl.*"}
+{"index": 465, "description": "lines that utilize words starting with 'ko'.\n", "truth regex": ".*\\bko[A-Za-z]*\\b.*\n", "gpt3 inference regex": ".*\\bko[A-Za-z]*\\b.*"}
+{"index": 564, "description": "lines that have a number in them\n", "truth regex": ".*[0-9].*\n", "gpt3 inference regex": ".*[0-9].*"}
+{"index": 202, "description": "lines that contain the letters 'ba'.\n", "truth regex": ".*ba.*\n", "gpt3 inference regex": ".*ba.*"}
+{"index": 771, "description": "lines that use words ending with 'es'.\n", "truth regex": ".*\\b[A-Za-z]*es\\b.*\n", "gpt3 inference regex": ".*\\b[A-Za-z]*es\\b.*"}
+{"index": 760, "description": "lines containing a 5 letter word beginning with 't'\n", "truth regex": ".*\\bt[A-Za-z]{4}\\b.*\n", "gpt3 inference regex": ".*\\b[tT][A-Za-z]{4}\\b.*"}
+{"index": 418, "description": "lines that contain DEF' with a period immediately after it.'\n", "truth regex": ".*DEF\\..*\n", "gpt3 inference regex": ".*DEF\\..*"}
+{"index": 796, "description": "lines that contain words ending with 'el'.\n", "truth regex": ".*((\\b[A-Za-z]+\\b)&(.*el)).*\n", "gpt3 inference regex": ".*\\b[A-Za-z]*el\\b.*"}
+{"index": 419, "description": "lines using the word 'intellectual'\n", "truth regex": ".*\\bintellectual\\b.*\n", "gpt3 inference regex": ".*\\bintellectual\\b.*"}
+{"index": 745, "description": "lines using 'an' before 'imal'\n", "truth regex": ".*an.*imal.*\n", "gpt3 inference regex": ".*an.*imal.*"}
+{"index": 236, "description": "lines using 3 instances of 'sw'\n", "truth regex": ".*(.*sw.*){3}.*\n", "gpt3 inference regex": "(.*sw.*){3,}"}
+{"index": 402, "description": "lines that use words of at least 9 letters.\n", "truth regex": ".*\\b[A-Za-z]{9,}\\b.*\n", "gpt3 inference regex": ".*\\b[A-Za-z]{9,}\\b.*"}
+{"index": 439, "description": "lines that contain at least one 'z'\n", "truth regex": ".*z.*\n", "gpt3 inference regex": ".*z.*"}
+{"index": 386, "description": "lines containing words that begin with 'G' and end with 'y'\n", "truth regex": ".*\\bG[A-Za-z]*y\\b.*\n", "gpt3 inference regex": ".*\\bG[A-Za-z]*y\\b.*"}
+{"index": 71, "description": "lines that have words ending with 'ti'.\n", "truth regex": ".*\\b[A-Za-z]*ti\\b.*\n", "gpt3 inference regex": ".*\\b[A-Za-z]*ti\\b.*"}
+{"index": 49, "description": "lines using at least 3 characters\n", "truth regex": ".*.{3}.*\n", "gpt3 inference regex": ".*.{3}.*"}
+{"index": 521, "description": "lines that contain words starting with 'ba'.\n", "truth regex": ".*((\\b[A-Za-z]+\\b)&(ba.*)).*\n", "gpt3 inference regex": ".*\\bba[A-Za-z]*\\b.*"}
+{"index": 279, "description": "lines which contain the letter 'z' twice.\n", "truth regex": "(.*z.*){2,}\n", "gpt3 inference regex": ".*z.*z.*"}
